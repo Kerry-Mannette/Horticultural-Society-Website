@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #2e7d32;
+  padding: 1rem;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+#title-2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 2rem;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+.hero {
+  background-color: #c8e6c9;
+  text-align: center;
+}
+
+.services-grid {
+  display: flex;
+  gap: 1rem;
+}
+
+.placeholder {
+  flex: 1;
+  background-color: #e0e0e0;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* Hours & Location section */
+.hours-location {
+  margin-top: 1.5rem;
+}
+
+.hours-location h3 {
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.hours-location-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.hours-location .hours,
+.hours-location .location {
+  background-color: #fafafa;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.hours-location h4 {
+  margin-top: 0;
+}
+
+.hours-location ul {
+  padding-left: 1.25rem;
+  margin: 0.5rem 0 0 0;
+}
+
+.map-placeholder {
+  margin-top: 0.5rem;
+  height: 140px;
+  background: linear-gradient(135deg,#e8f5e9,#c8e6c9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2e7d32;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* Responsive: stack columns on narrow screens */
+@media (max-width: 700px) {
+  .hours-location-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #2e7d32;
+  color: white;
+}
