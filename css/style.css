@@ -129,3 +129,49 @@ footer {
   background-color: #2e7d32;
   color: white;
 }
+
+/* Gallery CSS */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f5f6f7;
+  }
+ 
+  #title-2, .gal{
+    font-weight: 100px;
+    font-size: 50px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 150px;
+    column-gap: 250px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 450px;
+    margin: 0px, 0px;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 15px;
+  }
+  
+  .gallery::after {
+    content: "";
+    width: 350px;
+  }
+  
