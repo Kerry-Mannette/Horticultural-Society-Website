@@ -251,11 +251,11 @@ footer {
 
 /* Gallery*/
   .gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   row-gap: 9.375rem;
   column-gap: 15.625rem;
   max-width: 75rem;
