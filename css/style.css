@@ -265,12 +265,86 @@ footer {
   
   .gallery img {
     width: 100%;
-  max-width: 28.125rem;
-  margin: 0 0;
+    max-width: 475px;
+    height: auto;
+    object-fit: cover;
+  }
+
+
+
+  /* about page */
+
+  .about-heading{
+    text-align: center;
+    font-weight: 600;
+    font-size: xxx-large;
+    margin: 10px;
+
   }
   
-  .gallery::after {
-    content: "";
-  width: 21.875rem;
+  #about {
+  display: flex;
+  align-items: center;
+    padding: 3rem;
+}
+/* about page: mission */
+.about-title-1 {
+  flex: 2;
+  margin: 0;
+  font-weight: bolder;
+  font-size: 45px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.about-description-1 {
+  flex: 1;
+  text-align: right;
+  letter-spacing: 1px;
+  font-size: 18px;
+  padding: 0 50px 0;
+  margin:0 30px;  
+  font-weight: 520;
+
+}
+
+/* about page: vision */
+.about-title-2 {
+  flex: 2;
+  margin: 0;
+  font-weight: bolder;
+  font-size: 45px;
+  padding-right: 75px;
+  text-align: right;
+}
+.mission,.vision {
+  border-top: 15px solid lightgray;
+}
+.vision{
+  border-bottom: 15px solid lightgray;
+}
+.about-description-2 {
+  flex: 1;
+  text-align: left;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 520;
+  margin:0 30px;  
+} 
+  .about-imgs{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    column-gap: 100px;
+    max-width: 1500px;
+    margin: 0.;
+    padding: 10px 0px;
   }
-  
+    .about-imgs img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    object-fit: cover;
+    }
+ 
