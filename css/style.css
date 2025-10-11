@@ -6,6 +6,11 @@ body {
   color: #333;
 }
 
+:root {
+  /* Base font-size for rem calculations */
+  font-size: 16px;
+}
+
 header {
   background-color: #2e7d32;
   padding: 1rem;
@@ -48,6 +53,12 @@ nav {
   margin-bottom: 6rem;
 }
 
+#title-4{
+  text-align: center;
+  margin-bottom: 6rem;
+  font-size: 4rem;
+}
+
 
 
 #btn {
@@ -57,7 +68,7 @@ nav {
   padding: 0.75rem 1.5rem;
   margin: 2rem 0rem 2rem 0rem;
   font-size: 1rem;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   cursor: pointer;
 }
 
@@ -65,12 +76,12 @@ section {
   padding: 2rem;
   background-color: white;
   margin: 1rem;
-  border-radius: 8px;
+  border-radius: 0.5rem;
 }
 
 .hero {
   background: linear-gradient(to bottom right, rgba(200, 230, 201, 0.9), rgba(129, 199, 132, 0.9)),
-  url('../hero-image.jpg'); 
+  url('../img/hero-image.jpg');
   background-size: cover;
   background-position: center;
   margin: 0rem;
@@ -114,7 +125,7 @@ section {
 .image {
   flex: 1;
   background-color: #e0e0e0;
-  height: 300px;
+  height: 18.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -124,7 +135,7 @@ section {
 .image img{
   width: 100%;
   height: 100%;
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }
 
 /* Hours & Location section */
@@ -147,8 +158,8 @@ section {
 .hours-location .location {
   background-color: #fafafa;
   padding: 1rem;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  border-radius: 0.375rem;
+  box-shadow: 0 0.0625rem 0.1875rem rgba(0,0,0,0.05);
 }
 
 .hours-location h4 {
@@ -162,14 +173,14 @@ section {
 
 .map-image {
   margin-top: 0.5rem;
-  height: 140px;
+  height: 8.75rem;
   background: linear-gradient(135deg,#e8f5e9,#c8e6c9);
   display: flex;
   align-items: center;
   justify-content: center;
   color: #2e7d32;
   font-weight: bold;
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }
 
 /* Contact section layout */
@@ -211,8 +222,8 @@ label {
 input, textarea {
   padding: 0.75rem;
   margin-top: 0.5rem;
-  border: 1px solid #a5d6a7;
-  border-radius: 5px;
+  border: 0.0625rem solid #a5d6a7;
+  border-radius: 0.3125rem;
   font-size: 1rem;
 }
 
@@ -222,7 +233,7 @@ button {
   background-color: #2e7d32;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   font-weight: bold;
   cursor: pointer;
 }
@@ -238,48 +249,28 @@ footer {
   color: white;
 }
 
-/* Gallery CSS */
-
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    font-family: sans-serif;
-    background: #f5f6f7;
-  }
- 
-  #title-2, .gal{
-    font-weight: 100px;
-    font-size: 50px;
-  }
-  
+/* Gallery*/
   .gallery {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    row-gap: 150px;
-    column-gap: 250px;
-    max-width: 1200px;
+  row-gap: 9.375rem;
+  column-gap: 15.625rem;
+  max-width: 75rem;
     margin: auto;
-    padding: 20px 0px;
+  padding: 1.25rem 0;
   }
   
   .gallery img {
     width: 100%;
-    max-width: 450px;
-    margin: 0px, 0px;
-    height: auto;
-    object-fit: cover;
-    border: 2px solid black;
-    border-radius: 15px;
+  max-width: 28.125rem;
+  margin: 0 0;
   }
   
   .gallery::after {
     content: "";
-    width: 350px;
+  width: 21.875rem;
   }
   
