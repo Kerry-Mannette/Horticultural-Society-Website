@@ -1,4 +1,3 @@
-Add a read me: Your README should follow a clear structure like this: 
 # Project Title 
 ## Description 
 Brief explanation of what the project does. 
