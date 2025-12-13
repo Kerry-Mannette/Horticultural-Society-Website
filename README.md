@@ -16,23 +16,10 @@ The Horticultural Society Website is a community-driven platform designed to sha
 
 ## Requirements
 To run or contribute to this project, you’ll need:
-- Modern browser (Chrome, Edge, Firefox)  
+- Modern browser (Chrome, Edge, Firefox)
+- Run index.html
 
 ---
-
-## Usage 
-- join community of gardeners
-- Meet new people and network with a community of gardeners
-  
-  ---
-
-## Contributors 
-- Kerry Mannette
-- Priya Boodram
-- Andre Ragbir
-- Aneesh
-
- ---
 
 ## Installation
 1. Clone the repository:
