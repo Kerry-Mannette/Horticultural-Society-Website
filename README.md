@@ -1,4 +1,4 @@
-# PHorticultural-Society-Website
+# Horticultural-Society-Website
 ## Description 
 Brief explanation of what the project does. 
 ## Features - Feature 1 - Feature 2 
