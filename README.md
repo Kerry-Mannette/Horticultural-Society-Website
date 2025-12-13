@@ -17,7 +17,7 @@ The Horticultural Society Website is a community-driven platform designed to sha
 ## Requirements
 To run or contribute to this project, you’ll need:
 - Modern browser (Chrome, Edge, Firefox)
-- Run index.html
+
 
 ---
 
