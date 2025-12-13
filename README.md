@@ -16,11 +16,8 @@ The Horticultural Society Website is a community-driven platform designed to sha
 
 ## Requirements
 To run or contribute to this project, you’ll need:
-- Node.js (v18+ recommended)  
-- npm or yarn package manager  
-- Git for version control  
 - Modern browser (Chrome, Edge, Firefox)  
-- Optional: Docker for containerized deployment  
+
 
 ---
 
