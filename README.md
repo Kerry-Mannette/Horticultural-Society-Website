@@ -1,7 +1,36 @@
-# Horticultural-Society-Website
+# Horticultural Society Website
 
-It was developed using HTML and CSS.
+A simple community website showcasing gardening resources, events, and member information. Built with HTML and CSS.
 
+## Features
+- News & updates for the society
+- Plant care guides and resources
+- Events calendar and announcements
+- Member registration and profile pages
+- Simple discussion area for community tips
+
+## Requirements
+- Modern web browser (Chrome, Edge, Firefox)
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Kerry-Mannette/Horticultural-Society-Website.git
+   ```
+2. Open the project folder and open `index.html` in your browser:
+   - Double-click `index.html`, or
+   - Serve it locally (recommended) using Python:
+     ```bash
+     # Python 3
+     python -m http.server 8000
+     ```
+     Then open http://localhost:8000 in your browser.
+
+## Usage
+- Browse the site locally to view pages and screenshots.
+- Edit the HTML and CSS files to customize content and styles.
+
+## Screenshots
 <img width="1755" height="2542" alt="image" src="https://github.com/user-attachments/assets/4d89998f-4b32-49ec-92a3-0ebd275de134" />
 
 <img width="1755" height="1469" alt="image" src="https://github.com/user-attachments/assets/22dcf908-3b7a-4be4-9522-accb507611ba" />
@@ -25,3 +54,8 @@ It was developed using HTML and CSS.
 <img width="613" height="531" alt="image" src="https://github.com/user-attachments/assets/1d0a9796-75fb-426e-bdf7-97331a4b6c79" />
 
 <img width="616" height="371" alt="image" src="https://github.com/user-attachments/assets/904eb496-0f8b-4404-8c00-ae076ed51364" />
+``` 
+
+If you'd like, I can:
+- Apply this change to the repository (create a commit/PR), or
+- Tweak the wording, add a license, or include contribution guidelines. Which would you like next?
